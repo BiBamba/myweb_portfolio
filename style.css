@@ -156,30 +156,31 @@ section{
     align-items: center;
     justify-content: space-between;
 }
-.about .about-content .left{
-    width: 45%;
+.about .about-content .right{
+    width: 40%;
 }
-.about .about-content .left img{
+.about .about-content .right img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
-.about .about-content .right{
-    width: 55%;
+.about .about-content .left{
+    width: 45%;
+    margin-left: 30px;
 }
-.about .about-content .right .text{
+.about .about-content .left .text{
     font-size: 25px;
     font-weight: 6000px;
     margin-bottom: 10px;
 }
-.about .about-content .right .text span{
+.about .about-content .left .text span{
     color: rgb(20, 130, 220);
 }
-.about .about-content .right p{
+.about .about-content .left p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .left a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -190,7 +191,7 @@ section{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
+.about .about-content .left a:hover{
     color: crimson;
     background: none;
 }
@@ -202,7 +203,7 @@ section{
     }
 }
 @media (max-width: 1104px){
-    .about .about-content .left img{
+    .about .about-content .right img{
         height: 350px;
         width: 350px;
     }
@@ -262,12 +263,12 @@ section{
     .about .about-content .column{
         width: 100%;
     }
-    .about .about-content .left{
+    .about .about-content .right{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .right{
+    .about .about-content .left{
         flex: 100%;
     }
 }
@@ -301,3 +302,16 @@ section{
     font-size: 23px;
     padding: 10px 30px;
 }
+
+/* interests section styling */
+.interests .interests-content .left{
+    width: 45%;
+}
+.interests .interests-content .left p{
+    padding: 5px 15px;
+}
+/*.interests .interests-content .left{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+}*/
