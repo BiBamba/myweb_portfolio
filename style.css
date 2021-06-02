@@ -304,14 +304,118 @@ section{
 }
 
 /* interests section styling */
-.interests .interests-content .left{
-    width: 45%;
+/* Education */
+.experience .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
-.interests .interests-content .left p{
-    padding: 5px 15px;
+.experience hr{
+    margin-bottom: 10px;
 }
-/*.interests .interests-content .left{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-}*/
+.experience .sub-title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.experience .experience-content .fourth-education .fourth-educyear{
+    float: left;
+    width: 30%;
+    height: 150px;
+}
+.experience .experience-content .third-education .third-educyear{
+    float: left;
+    width: 30%;
+    height: 150px;
+}
+.experience .experience-content .second-education .second-educyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .first-education .first-educyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .fourth-education .fourth-educdescription{
+    float: right;
+    width: 70%;
+    height: 150px;
+}
+.experience .experience-content .fourth-education .fourth-educdescription ul{
+    margin-left: 30px;
+}
+.experience .experience-content .third-education .third-educdescription{
+    float: right;
+    width: 70%;
+    height: 150px;
+}
+.experience .experience-content .second-education .second-educdescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+.experience .experience-content .first-education .first-educdescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+
+/* Employment History */
+.experience .experience-content .current-employment .current-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .current-employment .current-empldescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+.experience .experience-content .previous-employment .previous-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .previous-employment .previous-empldescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+.experience .experience-content .contract-employment .contract-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .contract-employment .contract-empldescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+.experience .experience-content .contracttwo-employment .contracttwo-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .contracttwo-employment .contracttwo-empldescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+.experience .experience-content .contractthree-employment .contractthree-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .contractthree-employment .contractthree-empldescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
