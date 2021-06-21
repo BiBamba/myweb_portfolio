@@ -69,7 +69,7 @@
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -317,7 +317,7 @@ section{
 .experience hr{
     margin-bottom: 10px;
 }
-.experience .sub-title{
+.experience .sub-title1{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -367,8 +367,19 @@ section{
     width: 70%;
     height: 120px;
 }
+.experience .experience-content .first-education hr{
+    margin-top: 30px;
+}
 
 /* Employment History */
+.experience .sub-title2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
 .experience .experience-content .current-employment .current-emplyear{
     float: left;
     width: 30%;
@@ -392,29 +403,61 @@ section{
 .experience .experience-content .contract-employment .contract-emplyear{
     float: left;
     width: 30%;
-    height: 120px;
+    height: 150px;
 }
 .experience .experience-content .contract-employment .contract-empldescription{
     float: right;
     width: 70%;
-    height: 120px;
+    height: 150px;
 }
 .experience .experience-content .contracttwo-employment .contracttwo-emplyear{
     float: left;
     width: 30%;
-    height: 120px;
+    height: 150px;
 }
 .experience .experience-content .contracttwo-employment .contracttwo-empldescription{
     float: right;
     width: 70%;
-    height: 120px;
+    height: 150px;
 }
 .experience .experience-content .contractthree-employment .contractthree-emplyear{
     float: left;
     width: 30%;
-    height: 120px;
+    height: 150px;
 }
 .experience .experience-content .contractthree-employment .contractthree-empldescription{
+    float: right;
+    width: 70%;
+    height: 150px;
+}
+.experience .experience-content .contractfour-employment .contractfour-emplyear{
+    float: left;
+    width: 30%;
+    height: 150px;
+}
+.experience .experience-content .contractfour-employment .contractfour-empldescription{
+    float: right;
+    width: 70%;
+    height: 150px;
+}
+/*Contract Job 5 style*/
+.experience .experience-content .contractfive-employment .contractfive-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .contractfive-employment .contractfive-empldescription{
+    float: right;
+    width: 70%;
+    height: 120px;
+}
+/*High School teacher style*/
+.experience .experience-content .teacher .teacher-emplyear{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+.experience .experience-content .teacher .teacher-empldescription{
     float: right;
     width: 70%;
     height: 120px;
